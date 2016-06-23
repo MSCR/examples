@@ -1,19 +1,20 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(){
-	/*
-	  This program calculates the coheficients a,b,c from the perfect square binomial, 
-		ax^2 + bx + c = 0
+/*
+  This program calculates the coheficients a,b,c from the perfect square binomial, 
+	ax^2 + bx + c = 0
 
-	  using the general formula
-		x = -b * sqrt(-b^2 - 4ac)
-		    --------------------
-			     2a 
-	*/
-	int a,b,c;
-	float x1,x2, temp;
-	char img;
+  using the general formula
+	x = -b * sqrt(-b^2 - 4ac)
+		--------------------
+			 2a 
+*/
+int a,b,c;
+float x1,x2, temp;
+char img;
+
+int main(){
 
 	img = ' ';
 	a = 0;
